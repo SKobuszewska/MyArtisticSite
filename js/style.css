@@ -1,0 +1,77 @@
+body {color: white}
+body {text-align: justify;}
+h1 {text-align:center;}
+h1 {font: size 36px; ;}
+p {font-size: 20px;}
+li {font-size: 20px;}
+img {text-align: center;}
+.naglowki {
+    text-align:center;
+}
+#prezentacja {
+    color: white;
+}
+
+#menu_strony a:link, #menu_strony a:visited {
+
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    display: inline-block;
+    padding-top: 0px;
+}
+
+#menu_strony a:hover {
+    background-color: #790505;
+    color: white;
+}
+
+#menu_strony a:active {
+    background-color: #790505;
+    color: white;
+    
+    }
+
+a:link, a:visited {
+
+    color:white;
+    text-decoration: none;
+    
+}
+
+.tresc {
+    font-size: 20px;
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+    font-variant: small-caps;
+
+}
+
+.tresc::first-letter
+{
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'Courier New', 'Times New Roman';
+}
+
+.tytulyofert {
+    font-family: 'Courier New', 'Times New Roman';
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.name {
+    padding-top: 30px;
+    color: red;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    
+}
